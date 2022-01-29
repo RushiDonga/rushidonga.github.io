@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+body {
+	background-color: #f3f3f3;
+}
+.pro-container {
+	margin-top: 10em;
+	margin-left: 10em;
+	margin-right: 10em;
+}
+.pro-container h2 {
+	font-family: "Arimo", sans-serif;
+	letter-spacing: 2px;
+	font-size: 3em;
+}
+.sample-pro {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.left-sample div {
+	width: 30vw;
+	max-width: 40vw;
+	max-height: 40vh;
+}
+.left-sample h3 {
+	font-family: "Arimo", sans-serif;
+	font-size: 2em;
+}
+.left-sample div {
+	font-family: "Maven Pro", sans-serif;
+	word-spacing: 3px;
+}
+.right-sample img {
+	height: 20em;
+	width: 30em;
+}
+
+@media screen and (max-width: 420px) {
+	.pro-container {
+		margin: 0;
+	}
+	.sample-pro {
+		display: flex;
+		flex-direction: column;
+	}
+	.left-sample h3 {
+		font-size: 1em;
+		width: 100%;
+	}
+	.left-sample div {
+		width: 100%;
+		max-width: 100%;
+	}
+	.right-sample img {
+		height: 15em;
+		margin-top: 2em;
+		width: 20em;
+	}
+}
