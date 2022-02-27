@@ -90,6 +90,7 @@ body a {
 .links {
 	display: flex;
 	flex-direction: row;
+	margin-top: 20px;
 }
 .resume {
 	height: 8em;
@@ -157,6 +158,54 @@ footer {
 .social-links:hover {
 	cursor: pointer;
 }
+.my-button-resume {
+	width: 125px;
+	height: 125px;
+	border: none;
+	border-radius: 100px;
+	outline: none;
+	background: #eea302;
+	color: white; 
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .my-button-resume:hover {
+	background: #666e97;
+  }
+
+  .my-button-flutter {
+	width: 125px;
+	height: 125px;
+	border: none;
+	border-radius: 100px;
+	outline: none;
+	background: #ee0202;
+	color: white; 
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .my-button-flutter:hover {
+	background: #666e97;
+  }
+
+  .my-button-aws {
+	width: 125px;
+	height: 125px;
+	border: none;
+	border-radius: 100px;
+	outline: none;
+	background: #4f20a7;
+	color: white; 
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .my-button-aws:hover {
+	background: #666e97;
+  }
+
 @media screen and (max-width: 420px) {
 	body {
 		margin: 0;
@@ -205,6 +254,11 @@ footer {
 		height: 5em;
 		width: 5em;
 	}
+
+	#projects-text{
+		height: 5px;
+	}
+
 	.resume span {
 		position: absolute;
 		bottom: 18em;
@@ -232,4 +286,14 @@ footer {
 	hr {
 		width: 100%;
 	}
+	.my-button-resume , .my-button-aws,.my-button-flutter{
+		width: 90px;
+		height : 90px;
+	}
+	.links{
+		margin-left : -20px;
+	}
+	
 }
+
+  
